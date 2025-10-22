@@ -30,12 +30,11 @@ export default function Home() {
       <HomeBackground />
       <main className="absolute flex flex-col w-full overflow-x-hidden pb-50">
         <div className="relative h-180 mt-30">
-          <div className="absolute top-0 left-0 w-full h-full">
-            <ConstellationNavbarHeader />
-          </div>
-
-          <div className="absolute top-10 left-50 z-0">
+          <div className="sm:absolute sm:top-10 sm:left-50 sm:z-0">
             <HomeIntro />
+          </div>
+          <div className="absolute sm:top-0 top-10 left-0 w-full h-full">
+            <ConstellationNavbarHeader />
           </div>
         </div>
         <section
