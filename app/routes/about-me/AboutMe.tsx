@@ -7,7 +7,7 @@ export default function AboutMe() {
       <p className="text-white text-2xl mb-20 font-light">
         I code to bring ideas to life.
       </p>
-      <div className="flex">
+      <div className="flex mb-20">
         <img
           src={GraduationCapUrl}
           width={32}
@@ -27,6 +27,13 @@ export default function AboutMe() {
           <p className="text-white ml-3 font-light">80.98 WAM</p>
         </div>
       </div>
+      <a
+        className="text-white mb-20 font-light"
+        href="mailto:brian.w.tjahjadi@gmail.com"
+      >
+        Contact me at:{' '}
+        <span className="underline">brian.w.tjahjadi@gmail.com</span>
+      </a>
     </>
   );
 }

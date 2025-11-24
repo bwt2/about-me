@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function HomeIntro() {
   const titles: string[] = [
     'Full-stack Developer',
@@ -11,7 +13,7 @@ export default function HomeIntro() {
       </h1>
       <ol className="text-white sm:text-base font-light flex gap-5 text-sm mt-2 sm:mt-0">
         {titles.map((item, i) => (
-          <>
+          <React.Fragment key={i}>
             <li className="sm:text-base text-sm text-center">{item}</li>
             {i !== titles.length - 1 && (
               <span
@@ -21,7 +23,7 @@ export default function HomeIntro() {
                 |
               </span>
             )}
-          </>
+          </React.Fragment>
         ))}
       </ol>
     </div>

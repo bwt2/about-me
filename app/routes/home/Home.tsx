@@ -4,6 +4,9 @@ import { Outlet, useLocation, type Location } from 'react-router';
 import { useRef, useEffect } from 'react';
 import HomeIntro from '~/universe/atoms/HomeIntro';
 import ConstellationNavbarHeader from '~/universe/molecules/ConstellationNavbarHeader';
+import githubSvg from '~/assets/icons/github.svg';
+import linkedinSvg from '~/assets/icons/linkedin.svg';
+import fileSvg from '~/assets/icons/file.svg';
 
 // eslint-disable-next-line no-empty-pattern
 export function meta({}: Route.MetaArgs) {
@@ -25,6 +28,7 @@ export default function Home() {
     }
   }, [location]);
 
+  const svgDim: number = 50;
   return (
     <>
       <HomeBackground />
@@ -44,6 +48,30 @@ export default function Home() {
           <Outlet />
         </section>
       </main>
+      <footer className="fixed right-5 bottom-5 flex gap-5">
+        <a href="https://github.com/bwt2" target="_blank">
+          <img
+            src={githubSvg}
+            width={svgDim}
+            height={svgDim}
+            alt="Github link"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/brian-tjahjadi/" target="_blank">
+          <img
+            src={linkedinSvg}
+            width={svgDim}
+            height={svgDim}
+            alt="Linkedin link"
+          />
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1qeXkXy03ADYXrU6FepsWmG-MyBYd3vDQ/edit?usp=sharing&ouid=113327115853525002737&rtpof=true&sd=true"
+          target="_blank"
+        >
+          <img src={fileSvg} width={svgDim} height={svgDim} alt="Resume link" />
+        </a>
+      </footer>
     </>
   );
 }
