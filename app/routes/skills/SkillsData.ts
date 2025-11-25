@@ -14,7 +14,7 @@ export const skills: SkillsData[] = [
       'TailwindCSS',
       'Relay',
       'React',
-      'React Router v7',
+      'React Router',
       'TypeScript',
       'Shadcn',
       'Vite',
