@@ -45,7 +45,7 @@ export default function Experience() {
                     </a>
                   )}
                 </h2>
-                <p className="text-gray-300">{data.title}</p>
+                <p className="text-white">{data.title}</p>
 
                 <p className="text-gray-400 text-sm">
                   {formatDate(data.startDate)} - {formatDate(data.endDate)} ☆{' '}

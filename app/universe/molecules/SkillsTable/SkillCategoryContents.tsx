@@ -6,7 +6,12 @@ export default function SkillCategoryContents({
   return (
     <>
       {skills.sort().map((skill, index) => (
-        <li key={index + skill}>{skill}</li>
+        <li
+          className="text-gray-300 hover:text-white transition-colors"
+          key={index + skill}
+        >
+          {skill}
+        </li>
       ))}
     </>
   );
