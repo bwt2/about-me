@@ -77,7 +77,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 export function HydrateFallback() {
   return (
     <div className="flex items-center justify-center min-h-screen text-white animate-pulse">
-      Loading...
+      Loading
     </div>
   );
 }
