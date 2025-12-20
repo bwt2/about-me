@@ -24,13 +24,11 @@ export const skills: SkillsData[] = [
   {
     category: 'Backend and Databases',
     skills: [
-      'Python',
       'FastAPI',
       'GraphQL',
       'gRPC',
       'SQLAlchemy',
       'pgvector',
-      'MySQL',
       'NestJS',
       'DrizzleORM',
       'PostgreSQL',
@@ -39,7 +37,6 @@ export const skills: SkillsData[] = [
   {
     category: 'Machine Learning and Data Science',
     skills: [
-      'Python',
       'matplotlib',
       'numpy',
       'Jupyter',
@@ -50,7 +47,7 @@ export const skills: SkillsData[] = [
   },
   {
     category: 'Robotics',
-    skills: ['ROS 2', 'C++', 'ROS 2 Control', 'Python', 'Foxglove'],
+    skills: ['ROS 2', 'Foxglove'],
   },
   {
     category: 'DevOps',

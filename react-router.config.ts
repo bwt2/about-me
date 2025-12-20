@@ -2,5 +2,8 @@ import type { Config } from '@react-router/dev/config';
 
 export default {
   ssr: false,
-  prerender: true,
+  async prerender({ getStaticPaths }) {
+    const staticPaths = await getStaticPaths();
+    return [...staticPaths];
+  },
 } satisfies Config;

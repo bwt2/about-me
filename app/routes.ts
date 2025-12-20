@@ -6,6 +6,8 @@ export default [
     route('experience', 'routes/experience/Experience.tsx'),
     route('projects', 'routes/projects/Projects.tsx'),
     route('skills', 'routes/skills/Skills.tsx'),
+
+    route('blog', 'routes/blogs/Blogs.tsx'),
   ]),
   route('*', 'routes/error/Error.tsx'),
 ] satisfies RouteConfig;
