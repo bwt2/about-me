@@ -14,12 +14,12 @@ export const experiences: ExperienceData[] = [
     title: 'Software Engineer',
     location: 'Sydney, NSW',
     startDate: new Date(2025, 4),
-    endDate: null,
+    endDate: new Date(2025, 11),
     href: 'https://www.onexhq.com',
     bulletPoints: [
-      'Designing and implementing scalable data pipeline for ingesting and preprocessing mobile time-series data, supporting continuous online learning of downstream ML models.',
+      'Architected and implemented data pipeline for ingesting and preprocessing mobile time-series data on AWS and railway, supporting continuous online learning of downstream ML models.',
       'Built personalized content-based recommendation service with Python, embedding models, and vector databases for fast ANN vector search and tailored user recommendations, integrating with our backend using gRPC.',
-      'Building responsive mobile UIs in React Native, integrating GraphQL backend using Relay.',
+      'Rewritten non-composited CSS animation background on landing page using WebGL2, delivering GPU-accelerated graphics and eliminating lag on low-spec devices.',
       'Collected user feedback and proposed landing page improvements to boost engagement; implemented features using Astro, TypeScript, TailwindCSS, and SolidJS via an island architecture.',
     ],
   },
@@ -31,6 +31,7 @@ export const experiences: ExperienceData[] = [
     endDate: new Date(2025, 11),
     href: 'https://www.linkedin.com/company/sydney-interplanetary-rover-initiative/',
     bulletPoints: [
+      'Passed the Australian Rover Challenge (ARCh)’s critical design review stage at the first year of attending the competition, accepted into the upcoming system acceptance review.',
       'Led development of base station control panel for remote command and telemetry of our flagship rover using Foxglove, React, and ROS2.',
       "Implemented rover's autonomous AI in the form of a behavior tree using BehaviorTree.CPP and BehaviorTree.ROS in C++.",
       'Developed ROS2 C++ controllers for autonomous and manual rover steering (spin and 4-wheel convergent ackermann) alongside ESTOP and keep alive mechanisms for rover safety using Python and C++ ROS2 nodes.',
