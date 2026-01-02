@@ -22,15 +22,17 @@ export default function AboutMe() {
             Bachelor of Advanced Computing
           </p>
           <p className="text-white ml-3 font-light">
-            Software Development and Physics
+            Software Development and Physics <br />
+            Dalyell Scholar
           </p>
-          <p className="text-white ml-3 font-light">80.98 WAM</p>
+          <p className="text-white ml-3 font-light">80.83 WAM</p>
         </div>
       </div>
       <a
-        className="text-white mb-20 font-light"
+        className="text-white mb-20 font-light whitespace-pre text-center"
         href="mailto:brian.w.tjahjadi@gmail.com"
       >
+        Looking to collaborate? <br />
         Contact me at:{' '}
         <span className="underline">brian.w.tjahjadi@gmail.com</span>
       </a>
